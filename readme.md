@@ -1,4 +1,4 @@
-# Carbon
+# Tempora
 
 Advanced interface for working with date and time, based on Carbon. [https://carbon.nesbot.com](https://carbon.nesbot.com)
 
