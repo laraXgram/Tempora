@@ -1,0 +1,53 @@
+{
+    "name": "laraxgram/tempora",
+    "description": "Advanced interface for working with date and time, based on Carbon.",
+    "license": "MIT",
+    "type": "library",
+    "keywords": [
+        "date",
+        "time",
+        "DateTime",
+        "Carbon",
+        "LaraGram",
+        "Laraquest",
+        "Bot",
+        "Telegram",
+        "Tempora"
+    ],
+    "authors": [
+        {
+            "name": "Brian Nesbitt",
+            "email": "brian@nesbot.com",
+            "homepage": "https://markido.com"
+        },
+        {
+            "name": "kylekatarnls",
+            "homepage": "https://github.com/kylekatarnls"
+        },
+        {
+            "name": "LaraGram",
+            "email": "laraxgram@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.2"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "LaraGram\\Tempora\\": "src/"
+        }
+    },
+    "config": {
+        "process-timeout": 0,
+        "sort-packages": true
+    },
+    "extra": {
+        "laragram": {
+            "providers": [
+                "LaraGram\\Tempora\\LaraGram\\ServiceProvider"
+            ]
+        }
+    }
+}
